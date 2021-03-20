@@ -1,0 +1,8 @@
+xampp/mysql/bin>mysql -u root -p -h localhost
+> show databases;
+> use sessionpractical;
+> ceate table signin(id int(255) auto_increment not null primary key, name varchar(255) not null, password varchar(255) not null );
+> show tables;
+> desc sigin;
+--> to see data in table
+ > select * from signin;
